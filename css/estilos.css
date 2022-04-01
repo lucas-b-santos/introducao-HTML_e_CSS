@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Butcherman&family=Jolly+Lodger&family=Syne+Mono&family=Tourney:wght@600&family=VT323&display=swap');
+
+
+h1{
+    color: rgb(0, 0, 0);    
+    font-family: 'VT323', monospace;
+    font-size: 82px;
+}
+
+h2{
+    color:rgb(39, 9, 9);
+    font-family:'Jolly Lodger',cursive;
+    font-size: 30px;
+}
+
+h3{color:rgb(72, 3, 27);
+font-family: 'Jolly Lodger',cursive;
+font-size: 25px;}
+
+.container{ 
+
+    background-color: rgb(255, 255, 255);
+    color: black;
+
+}
+
+.magafafo{
+    
+    color: red;
+    font-family: 'Butcherman',cursive; font-size: 20px
+    
+    }
+
+
+body{ background-color: white;
+      width: 1000px;
+      height: 100px;
+      margin: 100px;
+}
