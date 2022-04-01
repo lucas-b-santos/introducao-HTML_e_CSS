@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Butcherman&family=Jolly+Lodger&family=Syne+Mono&family=Tourney:wght@600&family=VT323&display=swap');
 
+footer{
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
 
 body{
     justify-content: center;
@@ -7,7 +12,10 @@ body{
 }
 
 .nome{
-    
+    font-family: 'Tourney';
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0px;
 }
 
 h1{
@@ -28,7 +36,7 @@ h2{
 .instagram{
     position: relative;
     margin: 0 auto;
-    margin-top: 205px;
+    margin-top: 50px;
     width: 250px;
     height: 250px;
     align-self: center;
@@ -41,6 +49,7 @@ h2{
 
 .desc{
     text-align: center;
+    font-size: medium;
     position: relative;
     margin:0 auto;
     width: 300px;
