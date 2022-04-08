@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+}
+
+div {
+    border: 2px solid blue;
+    width: 200px;
+    height: 200px;
+}
+.container {
+    background: grey;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+
+}
+
+#teste {
+    background-color: red ;
+    /* position por padrão vem static */
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    /* relative permite movimentar o elemento */
+    /* absolute o elemento fica condicionado ao elemento superior 
+    a ele na hierarquia que não seja static */
+    /* left: 100px; */
+    /* right: 0; */
+    /* desloca n pixels para a direita (left) ou para esquerda 
+    (right)*/
+    /* top: 0; */
+    bottom: 50%;
+    /* desloca n pixels para baixo (top) ou para cima (bottom) */
+}
+
+p {
+    background: purple;
+    height: 1000px;
+}
